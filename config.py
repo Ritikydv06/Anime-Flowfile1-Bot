@@ -32,8 +32,8 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Sarkar123:GAUTAMMISHRA@sa
 DB_NAME = os.environ.get("DATABASE_NAME", "Sarkar123")
 
 #force sub channel id, if you want enable force sub
-FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002084570715"))
-FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1002056857566"))
+FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "0"))
+FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "0"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -41,7 +41,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "<b> Kᴏɴɴɪᴄʜɪᴡᴀ {first} 👋 </b>\n\nI ᴀᴍ ᴀ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ @Animeflow01")
 try:
     ADMINS=[6376328008]
-    for x in (os.environ.get("ADMINS", "6672416716").split()):
+    for x in (os.environ.get("ADMINS", "5716628075").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -62,7 +62,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "​🚫Pʟᴇᴀꜱᴇ ᴅᴏɴ'ᴛ ᴍᴇꜱꜱᴀɢᴇ ᴍᴇ ᴅɪʀᴇᴄᴛʟʏ ɪ ᴀᴍ ᴏɴʟʏ ᴡᴏʀᴋ ꜰᴏʀ​ - @Animeflow01"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(5716628075)
+ADMINS.append(5090651635)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
